@@ -1,7 +1,8 @@
-/* change button color on hover*/
+/* uses nested declarations */
+
 button {
-    color: #FF0000;
-    &:hover {
-        color: #00FF00;
+    color: #ff0000;
+   &:hover {
+        color: #00FF00
     }
 }
